@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "brain-games>=0.5.1",
+    "prompt>=0.4.1",
+]
 
 [build-system]
 requires = ["hatchling"]

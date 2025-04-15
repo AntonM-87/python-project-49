@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "brain-games>=0.5.1",
     "prompt>=0.4.1",
+    "prompt-toolkit>=3.0.50",
 ]
 
 [build-system]
@@ -24,3 +25,4 @@ dev = [
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 
+brain-even = "brain_games.scripts.brain_even:main"

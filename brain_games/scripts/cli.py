@@ -5,5 +5,7 @@ def welcome_user():
     
     print(f'Hello, {name}!')
     
+welcome_user()
+    
 
 

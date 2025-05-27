@@ -1,5 +1,8 @@
 import random
 
+def main():
+    print("uv run brain-prime")
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
@@ -35,6 +38,8 @@ def game_prime():
 
 game_prime()
 
+if __name__ == "__main__":
+    main()
 
 
 

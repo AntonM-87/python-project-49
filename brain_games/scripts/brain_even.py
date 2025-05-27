@@ -2,6 +2,9 @@
 
 import random
 
+def main():
+    print("uv run brain-even")
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     
@@ -40,6 +43,7 @@ def welcome_user():
 
 welcome_user()
 
-
+if __name__ == "__main__":
+    main()
 
 

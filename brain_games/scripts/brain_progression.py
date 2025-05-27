@@ -1,5 +1,7 @@
 import random
 
+def main():
+    print("uv run brain-progression")
 
 def generate_progression():
     start = random.randint(1, 10)
@@ -32,3 +34,7 @@ def welcome_user():
     print(f'Congratulations, {name}!')
 
 welcome_user()
+
+if __name__ == "__main__":
+    main()
+

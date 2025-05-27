@@ -1,5 +1,7 @@
 import random
 
+def main():
+    print("uv run brain-cacl")
 
 def welcome_user():
     print("Welcome to the Brain Games!")
@@ -37,9 +39,10 @@ def game_cacl():
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
+    
+if __name__ == "__main__":
+    main()
 
-
-game_cacl()
 
 
 

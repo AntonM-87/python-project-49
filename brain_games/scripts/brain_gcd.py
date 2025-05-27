@@ -1,6 +1,9 @@
 import math
 import random
 
+def main():
+    print("uv run brain-gcd")
+
 def welcome_user():
     print('Welcome to the Brain Games!')
     name = input('May I have your name? ')
@@ -29,7 +32,9 @@ def math_game():
     
 math_game()
     
-   
+if __name__ == "__main__":
+    main()
+
 
 
 
